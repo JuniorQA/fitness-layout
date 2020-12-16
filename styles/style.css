@@ -1,0 +1,227 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Gilroy-Bold;
+}
+.backround-white{
+	background: #FFFFFF;
+}
+.background-gray{
+	background: #F6F6F6;
+}
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+.menu-container{
+	border-bottom: 1px solid #828282;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	padding: 20px 0;
+}
+.space-between{
+	justify-content: space-between;
+}
+.w-full{
+	width: 100%;
+}
+.space-around{
+	justify-content: space-around;
+}
+.menu ul .black, .mobile-menu-opened ul .black{
+	color: black;
+}
+.menu ul li{
+	font-size: 18px;
+	line-height: 22px;
+	list-style: none;
+	padding: 10px 0;
+	width: 10%;
+	text-align: center;
+}
+.menu ul li:first-child{
+	text-align: left;
+	color: black;
+}
+.menu ul li:last-child{
+	text-align: right;
+}
+.menu a, .mobile-menu-opened a{
+	text-decoration: none;
+	color: #828282;
+}
+.flex{
+	display: flex;
+}
+.header-about-name{
+	font-size: 47.3392px;
+	line-height: 59px;
+}
+.header-about-name-content{
+	margin-bottom: -9px;
+}
+.header-about-proficiency{
+	font-size: 18px;
+	display: flex;
+	align-items: flex-end;
+	/*font-family: Gilroy-Medium;*/
+}
+.header-lang{
+	display: flex;
+	align-items: flex-end;
+}
+.header-lang-content{
+	writing-mode: tb-rl;
+	transform: rotate(180deg);
+}
+.header-lang-content a{
+	text-decoration: none;
+	color: #000;
+}
+.w-33{
+	width: 33%;
+}
+.vert-m-20{
+	margin: 20px 0;
+}
+.m-top-60{
+	margin-top: 60px;
+}
+.m-bottom-100{
+	margin-bottom: 100px;
+}
+.gray{
+	color: #828282;
+}
+.man-img{
+	width: 100%;
+	height: 100%;
+}
+.flex-dir-column{
+	flex-direction: column;
+}
+.align-items-center{
+	align-items: center;
+}
+.vert-p-90{
+	padding: 90px 0;
+}
+.vert-p-50{
+	padding: 50px 0;
+}
+.p-20{
+	padding: 20px;
+}
+.p-30{
+	padding: 30px;
+}
+.align-text-center{
+	text-align: center;
+}
+.p-10{
+	padding: 10px;
+}
+.p-5{
+	padding: 5px;
+}
+.padding-for-header{
+	padding-bottom: 50px;
+}
+.underlined{
+	text-decoration: underline;
+}
+.footer-button a{
+	text-decoration: none;
+	color: #fff;
+	background-color: #070707;
+	padding: 15px 40px;
+	border: 1px solid #fff;
+	border-radius: 25px;
+}
+.text-nowrap{
+	white-space: nowrap;
+}
+.flex-wrap-wrap{
+	flex-wrap: wrap;
+}
+.float-right{
+	float: right;
+}
+.mobile-menu-icon{
+	position: relative;
+	top: 40px;
+	display: none;
+}
+.man-img-mobile{
+	display: none;
+}
+.align-block-center{
+	margin: 0 auto;
+}
+.mobile-menu-opened{
+	width: 100vw;
+	height: 100vh;
+	background-color: #fff;
+	position: absolute;
+	top: -999px;
+	left: 0;
+	font-size: 28px;
+	transition: 0.8s all ease-out;
+}
+.top-0{
+	transition: 0.8s all ease-out;
+	top: 0;
+}
+.mobile-menu-opened ul li{
+	padding: 60px 20px 0 20px;
+	width: 50%;
+	text-align: left;
+	border-radius: 0 20px 20px 0;
+	display: block;
+	transition: 0.1s all;
+}
+.mobile-menu-opened ul li:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.1);
+	width: 40%;
+	transition: 0.3s all;
+	transform: scaleX(1.1) translate(5%, 0);
+}
+.ru:hover, .eng:hover{
+	color: #000;
+	transition: 0.8 all;
+}
+/*.mobile-menu-opened ul li:first-child:hover{
+	transition: 0.3s all linear;
+	transform: scale(1.2);
+}*/
+.display-none{
+	display: none;
+}
+.close-menu-button{
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+.close-menu-button:hover{
+	border-radius: 50%;
+}
+.close-menu-img{
+	width: 20px;
+	height: 20px;
+}
+.header-lang-mobile{
+	justify-content: flex-end;
+}
+.header-lang-mobile .header-lang-content{
+	transform: rotate(0deg);
+}
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}

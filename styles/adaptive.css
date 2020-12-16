@@ -1,0 +1,41 @@
+@media screen and (max-width: 799px){
+	body{
+		overflow-x: hidden;
+	}
+	.header-about{
+		flex-direction: column;
+	}
+	.header-lang{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	.mobile-menu-icon{
+		display: block;
+	}
+	.man-img{
+		display: none;
+	}
+	.man-img-mobile{
+		display: inline;
+	}
+	.container{
+		width: 90%;
+	}
+	.social-media-items div{
+		padding: 10px;
+	}
+	.display-none{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 800px){
+	body{
+		overflow: auto;
+	}
+	.mobile-menu-opened{
+		display: none;
+	}
+}
